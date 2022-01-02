@@ -12,22 +12,22 @@ header{
     color: #999;
     text-transform: capitalize ;
     font-family: 'Cinzel', serif;
-    padding: 4rem 10rem;
-    font-size: 5rem;
+    padding: 2rem 5rem;
+    font-size: 1rem;
 }
 
 
 h1{
     color:#fff;
     font-family: 'Cinzel', serif;
-    font-size: 10rem;
+    font-size: 2rem;
     text-align: center;
     margin: 0 0;
 }
 
 section:first-of-type>section{
     background-image: none;
-    box-sizing: 10px 10px;
+    box-sizing: 1px 1px;
     text-align: center;
 }
 
@@ -35,22 +35,22 @@ section:first-of-type{
     background: url(../img/bg_header.jpeg);background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
-    padding: 20em 0em ;
+    padding: 8rem ;
 }
 
 
 section:nth-of-type(2) h2{
     font-family: 'Cinzel';
     text-align: center;
-    font-size: 5rem;
-    margin: 5em 0 5em 0;
+    font-size: 1rem;
+    margin: 4em 0 3em 0;
 
 }
 
 section:nth-of-type(2){
     text-align: center;
-    font-size: 3.5em;
-    margin: 5em 10em 5em 5em;
+    font-size: 0.7em;
+    margin: 1% 5% 5% 6%;
 }
 
 section:nth-of-type(3){
@@ -60,22 +60,21 @@ section:nth-of-type(3){
 }
 
 section:nth-of-type(3) img{
-    padding: 10rem 15rem 5rem 0;
+    padding: 3% 2% 3% 3% ;
     width: 25%;
     height: 25%;
 }
 
 section:nth-of-type(4){
-    font-size: 3.5em;
-    margin: 5em 6em;
+    font-size: 0.7em;
+    margin: 0 0 2% 5.5%;
     line-height: 2em;
 }
 
 section:nth-of-type(4) h2{
     font-family: 'Cinzel';
     text-align: center;
-    font-size: 5rem;
-    padding: 1rem 0 1rem 0;
+    font-size: 1rem;
 }
 
 
@@ -117,7 +116,7 @@ footer{
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: 5rem;
-    padding: 15rem;
+    font-size: 1rem;
+    padding: 1%;
     border-top: 0.1rem solid #ccc;
 }
