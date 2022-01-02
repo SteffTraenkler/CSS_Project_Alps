@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Poppins:wght@200&display=swap');
+
+body{
+    margin: 0 0;
+    padding: 0 0;
+    background-color: #fff;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    color: #999;
+    text-transform: capitalize ;
+    font-family: 'Cinzel', serif;
+    padding: 4rem 10rem;
+    font-size: 5rem;
+}
+
+
+h1{
+    color:#fff;
+    font-family: 'Cinzel', serif;
+    font-size: 10rem;
+    text-align: center;
+    margin: 0 0;
+}
+
+section:first-of-type>section{
+    background-image: none;
+    box-sizing: 10px 10px;
+    text-align: center;
+}
+
+section:first-of-type{
+    background: url(../img/bg_header.jpeg);background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    padding: 20em 0em ;
+}
+
+
+section:nth-of-type(2) h2{
+    font-family: 'Cinzel';
+    text-align: center;
+    font-size: 5rem;
+    margin: 5em 0 5em 0;
+
+}
+
+section:nth-of-type(2){
+    text-align: center;
+    font-size: 3.5em;
+    margin: 5em 10em 5em 5em;
+}
+
+section:nth-of-type(3){
+    text-align: center;
+    padding: 0 0 0 0;
+    margin: 0 0; 
+}
+
+section:nth-of-type(3) img{
+    padding: 10rem 15rem 5rem 0;
+    width: 25%;
+    height: 25%;
+}
+
+section:nth-of-type(4){
+    font-size: 3.5em;
+    margin: 5em 6em;
+    line-height: 2em;
+}
+
+section:nth-of-type(4) h2{
+    font-family: 'Cinzel';
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem 0 1rem 0;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+li::after{
+    content: "     - sold out";
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: red;
+}
+
+li:nth-of-type(4)::after{
+    content: "     - only 4 spot available";
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: red;
+}
+
+li:nth-of-type(5)::after{
+    content: "     - available";
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: green;
+}
+
+li:nth-of-type(6)::after{
+    content: "     - available";
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: green;
+}
+
+
+footer{
+    font-family: 'Cinzel';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 5rem;
+    padding: 15rem;
+    border-top: 0.1rem solid #ccc;
+}
